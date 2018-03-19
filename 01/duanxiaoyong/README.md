@@ -1,4 +1,6 @@
-# <p align='center'> python day-01【课后总结】</p>
+# <p align='center'> python day-01 课后总结</p>
+![](https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1521476053082&di=ea5b7f843068f6ba60637b0d576f3a04&imgtype=0&src=http%3A%2F%2Ftc.sinaimg.cn%2Fmaxwidth.2048%2Ftc.service.weibo.com%2Fmmbiz_qpic_cn%2Fb8db78751723ccf9f58201a19f4ad54e.jpg)
+
 
 ### 课程的内容
 1. 第一个Python程序
