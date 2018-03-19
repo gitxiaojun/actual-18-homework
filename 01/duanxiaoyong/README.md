@@ -1,16 +1,39 @@
-# <p align='center'> python day-01 课后总结</p>
+# <p align='center'> python day-01课后总结 </p>
 ![](https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1521476053082&di=ea5b7f843068f6ba60637b0d576f3a04&imgtype=0&src=http%3A%2F%2Ftc.sinaimg.cn%2Fmaxwidth.2048%2Ftc.service.weibo.com%2Fmmbiz_qpic_cn%2Fb8db78751723ccf9f58201a19f4ad54e.jpg)
-
-
 ### 课程的内容
-1. 第一个Python程序
+
+### 什么是编程？
+- 人和计算机之间交流的过程，为了使计算机能够理解人的意图，
+- 必须将需解决的问题的思路、方法、和手段通过计算机能够理解的形式告诉计算机，
+- 使得计算机能够根据人的指令一步一步去完成某种特定的任务
+### 什么是python
+- Python(蟒蛇)是一门简单易学, 优雅健壮, 功能强大, 面向对象的解释型脚本语言.
+- 具有20+年发展历史, 成熟稳定. 具有丰富和强大的类库支持日常应用.
+### python的特点
+- 简单易学
+- 优雅健壮
+- 功能强大
+- 面向对象
+- 可移植
+- 可扩展、可嵌入
+
+###准备python环境
+- 版本：Python3.5
+- python各个版本之间的有一定区别，尤其是2.7版本和3.X版本之间改动较多，Python2.7支持时间到2020年，使用新版本为趋势
+- Python安装
+- Linux(教学使用)
+- 选择Ubuntu16.04，默认为Python3.5.2
+- 使用系统软件管理工具apt/apt-get，yum等进行安装
+- 使用源码安装
+- Windows 下载地址：https://www.python.org/downloads/windows/
+
+
+### 第一个Python程序
 - 打开Python交互式环境
 - 命令行中数据Python3.5版本程序名称
 - 在Python交互式环境中输入print('Hello World')
 - 在Python交互式环境中输入exit()
-
-### 第一个Python程序
-```
+``` python
 Python 3.5.4 (v3.5.4:3f56838976, Aug  7 2017, 12:56:33)
 [GCC 4.2.1 (Apple Inc. build 5666) (dot 3)] on darwin
 Type "help", "copyright", "credits" or "license" for more information.
@@ -72,7 +95,7 @@ print(a_pi*ra*ra)
 ```
 
 定义变量
-```
+```python
 pi=3.1415926
 area = pi * radius ** 2
 ```
@@ -91,7 +114,7 @@ area = pi * radius ** 2
 - ***按是否带负号***
     - 正数
     - 负数
-```
+```python
 像年龄、身高、体重、分数、圆周率这样的数字
 height = 1.71
 age =29
@@ -110,7 +133,7 @@ score = 5.5
 类型的判断与转换
 
 * type 函数判断类型
-```
+```python
 print(type(1))
 print(type(1.0))
 print(type(''))
@@ -124,7 +147,7 @@ type结果：
     - int/str => float
     - float/str => int
     - int/float => str
-```
+```python
 print(type(int(1.9)))
 print(type(int(2)))
 print(type(float(1)))
@@ -150,7 +173,7 @@ job = "linux"
 \n     换行
 \t     tab键
 \f     换页
-```
+```python
 print("i 'm dxy")
 print('i\'m dxy')
 print('a \nb \tc ')
@@ -322,6 +345,7 @@ while True:
         break
 
 ```
+
 
 
 
