@@ -3,6 +3,7 @@
 # @Time   : 2018/3/19 15:02
 # @Author : David Beckham
 # @File   : guess.py
+
 import random
 secret=random.randint(1,100)#生成随机数
 #print (secret)
