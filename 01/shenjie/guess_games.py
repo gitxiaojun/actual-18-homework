@@ -19,13 +19,13 @@ while True:
         if not i.isdigit():
             print('请重新执行，必须是数字')
             exit()
+    if int(num) < random_num:
+        print('%s < %s ,猜小了' %(int(num),random_num))
+    elif int(num) > random_num:
+        print('%s > %s ,猜大了' % (int(num), random_num))
+    else:
+        print('%s = %s, 猜对了，结束程序' %(int(num), random_num))
+        break
     if guess_count >= 5:
         print("太笨了，下次再来")
-        break
-    elif int(num) < random_num:
-        print('猜小了')
-    elif int(num) > random_num:
-        print('猜大了')
-    else:
-        print('猜对了，结束程序')
         break
