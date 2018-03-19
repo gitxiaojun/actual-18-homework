@@ -1,3 +1,6 @@
+# encoding: utf-8
+# author: niko.zhang
+
 import random
 count = 1
 random_num = random.randint(0,100)
