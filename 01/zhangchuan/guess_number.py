@@ -3,7 +3,7 @@
 #date:2018/03/20
 
 import random
-truenum=random.randint(0,100)
+truenum=random.randint(0,10)
 cnt=0
 print ("猜数字游戏，你有五次机会")
 while cnt<5:
@@ -18,5 +18,6 @@ while cnt<5:
     else:
         print ("小了")
         cnt += 1
-        continue
+        continue    	
+else:
     print ("已用完五次机会，笨蛋,正确数字是",truenum)
