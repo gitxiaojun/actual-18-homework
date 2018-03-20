@@ -19,4 +19,4 @@ while cnt<5:
         print ("小了")
         cnt += 1
         continue
-print ("已用完五次机会，笨蛋,正确数字是",truenum)
+    print ("已用完五次机会，笨蛋,正确数字是",truenum)
