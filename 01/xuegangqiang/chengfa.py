@@ -6,7 +6,10 @@
 
 '''
 打印乘法口诀
-提示：尝试print(‘kk’)与print(‘kk’, end=‘’)的区别
+提示：尝试print('kk’)与print('kk’, end=‘’)的区别
+
+print('kk')  # 打印结果，并换行
+print('kk', end=' ')  # 打印结果，不换行
 '''
 
 # 定义外循环值
