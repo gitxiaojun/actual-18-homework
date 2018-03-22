@@ -5,10 +5,10 @@ for i in arr:
 		if j>i:
 		    break
 		elif i==j:
-		    print(str(i)+'*'+str(j)+'='+str(i*j))
+		    print(str(j)+'*'+str(i)+'='+str(i*j))
 		elif i*j>=10:
-		    print(str(i)+'*'+str(j)+'='+str(i*j),end=',')
+		    print(str(j)+'*'+str(i)+'='+str(i*j),end=',')
 		else:
-		    print(str(i)+'*'+str(j)+'='+str(i*j),end=' ,')
+		    print(str(j)+'*'+str(i)+'='+str(i*j),end=' ,')
 			
 		

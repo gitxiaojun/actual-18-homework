@@ -8,6 +8,9 @@ while True:
                 if usernum == '':
                         print('Invalid input,must input!')
                         usernum = input('Please input a 0-100 number:')
+                elif not usernum.isdigit():
+                        print('Invalid input,Please input number!')
+                        usernum = input('Please input a 0-100 number:')
                 elif int(usernum)<0 or int(usernum)>100:
                         print('Invalid input,out of range!')
                         usernum = input('Please input a 0-100 number:')
@@ -25,5 +28,3 @@ while True:
         if v_time == 5:
                 print('You idiot! Again!')
                 break
-		
-
