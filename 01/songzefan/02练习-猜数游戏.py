@@ -21,6 +21,3 @@ while True:
     if input_times == 0: 
         print("太笨了，下次再来")
         break
-    
-        
-       
