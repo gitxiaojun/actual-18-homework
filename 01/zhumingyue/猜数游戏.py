@@ -1,4 +1,4 @@
-##九九乘法表：
+##猜数游戏：
 # -*- coding:utf-8 -*-
 import random
 random_num = random.randint(0,100)
@@ -17,3 +17,4 @@ while True:
         user_num = input("please input a digit:")
     elif int(user_num) == random_num:
         print("恭喜你，猜对了！！！")
+        break
