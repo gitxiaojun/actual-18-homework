@@ -1,4 +1,3 @@
-#Don't know how to tell characters
 import random
 random_num = random.randint(0,100)
 v_time = 0
