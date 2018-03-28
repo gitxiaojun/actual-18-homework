@@ -10,13 +10,13 @@ for i in range(len(number_list)-1):
         if number_list[j]>number_list[j+1]:
             number_list[j], number_list[j + 1] = number_list[j + 1], number_list[j]
 #练习冒泡排序
-print('原始数据排序后:',number_list)
 #定义开始
 start = 0
 #定义结束
 end = int(len(number_list) -1)
 count =0
 find_num = int(input('请输入需要find的数字：'))
+exists =False
 while True:
     count +=1
     mid = int(start+end)//2
@@ -28,5 +28,9 @@ while True:
     else:
         print('查找的索引的值为:{0},查找的次数是：{1}'.format(mid,count))
         break
-    if find_num not in number_list:
-        break
+    for i in number_list:
+        if i == find_num:
+            exists = True
+    continue
+print('查询结果：',exists,)
+
