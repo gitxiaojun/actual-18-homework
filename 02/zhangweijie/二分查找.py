@@ -10,8 +10,8 @@ mid = (low + high)/2
 
 '''
 
-list2 = [1,2,5,13,19,21,37,56,64,75,80,88,92,100]
-key_value = 21
+list2 = list(range(1,101))
+key_value = int(input('输入一个1-100的数字：'))
 
 
 
@@ -20,8 +20,8 @@ low = 0
 while low < high:
     mid = (low + high)//2
     if list2[mid] == key_value:
-        print('u find it,is:',end='\t')
-        print(mid)
+        print('{0}在列表的第{1}位'.format(key_value,mid))
+        #print(mid)
         break
     #判断为左边
     elif list2[mid] > key_value:
